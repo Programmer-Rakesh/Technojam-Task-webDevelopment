@@ -2,7 +2,7 @@
 
 1.  I began with the easy task:
     First, I added a picture and then, with the help of the span tag, I wrote two lines on it. Then I created a direct link button, which opens in a new tab (basically for providing more detailed information about the F-35). After that, I started working on the styling, and lastly, I focused on making it responsive (Dimensions: iPad Air).
-    I have been learning web development since the 4th of October. So I only know the basics of HTML and CSS. With that knowledge, I created one project on my own (Self_MadePROJECT_1). I didn’t work on making it responsive because I made it recently, and for now, as a beginner, it can be challenging to make it responsive.
+    I have been learning web development since the 4th of October. So I only know the basics of HTML and CSS. With that knowledge, I created one project on my own (Self_MadePROJECT_1).My idea was to create a website for tourists so that they wouldn’t have to visit each country’s website separately to search for the places they want to visit. I didn’t work on making it responsive because I made it recently, and for now, as a beginner, it can be challenging to make it responsive.
 
 
   2. To be honest, I didn’t face any challenges in creating the card, as it was just a basic one. But I will keep adding complexity to my projects.
