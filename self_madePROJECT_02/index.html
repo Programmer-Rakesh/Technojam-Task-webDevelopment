@@ -24,17 +24,20 @@
             transform: translate(-50%, -50%);
             width: 120%;
             z-index: -1;
-            opacity: 0.8;
+            /* opacity: 1; */
         }
 
         .main{
+            font-family: Arial, Helvetica, sans-serif;
             background-color: transparent;
             border: solid white 5px;
             color: white;
             width: 350px;
-            padding: 45px;
+            padding: 20px;
             border-radius: 15px;
-            bac
+            position: fixed;
+            right: 675px;
+            top: 350px;
         }
 
         form{
@@ -51,13 +54,16 @@
         }
 
         h2{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: x-large;
             display: flex;
             justify-content: center;
             align-items: center;
-            /* height: 100px; */
+            height: 50px;
         }
 
-        button{
+        .button{
             font-size: medium;
             font-weight: bold;
             background-color: rgb(31, 106, 175);
@@ -66,22 +72,51 @@
             border-radius: 8px;
         }
 
-        button:hover{
-            background-color: rgb(165, 33, 33);
+        .button:hover{
+            background-color: rgb(170, 28, 28);
         }
 
+        .name{
+            position: relative;
+            height: 600px;
+  
+        }
+
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;   
+        }
+ 
+        
+        .span{
+            
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            position: relative;
+            left: 100px;
+            color: white;
+        }
 
     </style>
 </head>
 <body >
+    <div class="container" >
+        <div class="name">
+            <h1>SILICON SOILDERS</h1>
+            <span class="span" >VICTORY AWAITS</span>
+        </div>
     <video src="./Vid.mp4" autoplay muted loop ></video>
     <div class="main">
         <h2>Login</h2>
         <form action="">
             <input type="Email or user name" placeholder="Email or user name">
             <input type="Password" name="" id="" placeholder="Password" >
-            <button type="submit">Login</button>
+            <button class="button" type="submit">Login</button>
         </form>
     </div>
+    </div>
+
 </body>
 </html>
