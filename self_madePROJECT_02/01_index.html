@@ -131,7 +131,7 @@
             position: relative;
             left: 270PX;
             bottom: 120px;
-            border: solid 3px white;
+            border: transparent;
             border-radius: 15px;
             border-width: 3px;
             background-color: white;
@@ -153,6 +153,31 @@
             border-radius: 12px;
         }
 
+        .Games1{
+            z-index: +1;
+            display: flex;
+            justify-content: right;
+            flex-direction: column;
+            position: relative;
+            left: 270PX;
+            bottom: 120px;
+            border: transparent;
+            border-radius: 15px;
+            border-width: 3px;
+            background-color: white;
+        }
+
+        .D{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            border-radius: 3px;
+
+        }
+
+        .E{
+            border-radius: 12px;
+        }
+
     </style>
 </head>
 <body >
@@ -160,7 +185,7 @@
         <img src="./Discord LOGO.png" width="50px" alt="">
         <img src="./Google play logo.png" width="45px" alt="">
     </div>
-    <audio src="./Audio1.unknown" autopla loop></audio>
+    <audio src="./Audio1.unknown" autopla  loop></audio>
     <div class="container" >
         <div class="name">
             <h1>SILICON SOILDERS</h1>
@@ -182,15 +207,15 @@
 
     <div class="Games" >
         <img class="C" src="./MW.jpeg" width="350px" alt="">
-        <span class="B" >Call of Duty</span>
+        <span class="B" >Call of Duty MW</span>
     </div>
-    <div class="Gmaes1" >
-        <img src="./3.jpeg" width="350px" alt="">
+    <div class="Games1" >
+        <img  class="E" src="./3.jpeg" width="350px" alt="">
         <span class="D" >Call of Duty</span>
     </div>
-    <div>
-        <img src="./BLACK OPPS.jpeg"  width="350px" alt="">
-        <span>Call of Duty</span>
+    <div class="Games2" >
+        <img  class="F" src="./BLACK OPPS.jpeg"  width="350px" alt="">
+        <span class="G" >Call of Duty</span>
     </div>
 </body>
 </html>
