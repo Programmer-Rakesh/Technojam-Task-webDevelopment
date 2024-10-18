@@ -77,10 +77,10 @@
         }
 
         .name{
+            border: solid red 3px;
             position: relative;
-            height: 600px;
-            left: 58px;
-  
+            height: 580px;
+            left: 60px;
         }
 
         h1{
@@ -127,10 +127,10 @@
             z-index: +1;
             display: flex;
             justify-content: right;
-            flex-direction: column;
+            flex-direction: column-reverse;
             position: relative;
-            left: 270PX;
-            bottom: 120px;
+            left: 675PX;
+            bottom: 250px;
             border: transparent;
             border-radius: 15px;
             border-width: 3px;
@@ -159,8 +159,8 @@
             justify-content: right;
             flex-direction: column;
             position: relative;
-            left: 270PX;
-            bottom: 120px;
+            left: 325PX;
+            top: 13px;
             border: transparent;
             border-radius: 15px;
             border-width: 3px;
@@ -171,11 +171,43 @@
             font-family: Arial, Helvetica, sans-serif;
             color: black;
             border-radius: 3px;
-
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
         }
 
         .E{
             border-radius: 12px;
+        }
+
+        .Games2{
+            z-index: +1;
+            display: flex;
+            justify-content: right;
+            flex-direction: column;
+            position: relative;
+            right: 25PX;
+            top: 32vh;
+            border: transparent;
+            border-radius: 15px;
+            border-width: 3px;
+            background-color: white;
+        }
+        .F{
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            border-radius: 12px;
+        }
+
+        .G{
+            color: black;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
         }
 
     </style>
@@ -186,11 +218,14 @@
         <img src="./Google play logo.png" width="45px" alt="">
     </div>
     <audio src="./Audio1.unknown" autopla  loop></audio>
+
+
     <div class="container" >
         <div class="name">
             <h1>SILICON SOILDERS</h1>
             <span class="span" >VICTORY AWAITS</span>
         </div>
+    </div>
     <video src="./Video.mp4" autoplay muted loop ></video>
     <div class="main">
         <h2>Login</h2>
@@ -200,7 +235,7 @@
             <button class="button" type="submit">Login</button>
         </form>
     </div>
-    </div>
+
     <div class="A" >
         <p>Don't have an account?  <a href="https://www.rockstargames.com/" target="_blank" >Register</a> </p>
     </div>
