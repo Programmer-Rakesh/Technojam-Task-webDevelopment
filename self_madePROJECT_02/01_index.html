@@ -29,15 +29,15 @@
 
         .main{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #161515;
-            border: solid white 5px;
+            background-color: #1d1b1b;
+            /* border: solid white 5px; */
             color: white;
             width: 350px;
             padding: 20px;
             border-radius: 15px;
             position: fixed;
             right: 685px;
-            top: 350px;
+            top: 358px;
         }
 
         form{
@@ -77,64 +77,60 @@
         }
 
         .name{
-            border: solid red 3px;
+            font-size: x-large;
+            width: 580px;
             position: relative;
-            height: 580px;
-            left: 60px;
+            left: 875px;
+            bottom: 250px;
         }
 
         h1{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: white;   
         }
- 
         
         .span{
-            
-
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: x-large;
             font-weight: bold;
             position: relative;
-            left: 100px;
+            left: 155px;
             color: white;
-        }
-
-        .img{
-            position: relative;
-            justify-content: left;
-            right: 5vh;
-            bottom: 45.5vh;
-            box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
-            transition: 0.6s;
-            padding: 10px;
-            /* gap: 10px; */
-        }
-
-        .img:hover{
-            transform: scale(1.2);
-            z-index: 2;
         }
 
         .A{
+            width: 700px;
             position: relative;
             top: 235px;
             color: white;
-            right: 270px;
+            right: 218px;
+        }
+
+        .P{
+            top: 1px;
+            position: relative;
+            left: 650px;
         }
 
         .Games{
             z-index: +1;
             display: flex;
             justify-content: right;
-            flex-direction: column-reverse;
+            flex-direction: column;
             position: relative;
-            left: 675PX;
+            left: 340PX;
             bottom: 250px;
             border: transparent;
             border-radius: 15px;
             border-width: 3px;
             background-color: white;
+            opacity: 0.3;
+            transition: 0.6s;
+        }
+        .Games:hover{
+            transform: scale(1.2);
+            opacity: 1;
+            z-index: 2;
         }
 
         .B{
@@ -142,10 +138,9 @@
             color: black;
             border-radius: 3px;
             display: flex;
-            flex-direction: column;
-            display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             font-weight: bold;
         }
 
@@ -159,12 +154,18 @@
             justify-content: right;
             flex-direction: column;
             position: relative;
-            left: 325PX;
-            top: 13px;
+            top: 9px;
             border: transparent;
             border-radius: 15px;
             border-width: 3px;
             background-color: white;
+            opacity: 0.3;
+            transition: 0.6s;
+        }
+        .Games1:hover{
+            transform: scale(1.2);
+            opacity: 1;
+            z-index: 2;
         }
 
         .D{
@@ -188,12 +189,19 @@
             justify-content: right;
             flex-direction: column;
             position: relative;
-            right: 25PX;
+            right: 340px;
             top: 32vh;
             border: transparent;
             border-radius: 15px;
             border-width: 3px;
             background-color: white;
+            opacity: 0.3;
+            transition: 0.6s;
+        }
+        .Games2:hover{
+            transform: scale(1.2);
+            opacity: 1;
+            z-index: 2;
         }
         .F{
             font-family: Arial, Helvetica, sans-serif;
@@ -210,15 +218,23 @@
             font-weight: bold;
         }
 
+        /* img{
+            position: relative;
+            left: 590px;
+        } */
+
+        a{
+            color: yellow;
+        }
+
+
     </style>
 </head>
 <body >
-    <div class="img" >
-        <img src="./Discord LOGO.png" width="50px" alt="">
-        <img src="./Google play logo.png" width="45px" alt="">
-    </div>
-    <audio src="./Audio1.unknown" autopla  loop></audio>
-
+    <!-- <div>
+        <img src="./Ghost_codm-removebg-preview.png" width="200px" alt="">
+    </div> -->
+    <audio src="./Audio1.unknown" autoplay  loop></audio>
 
     <div class="container" >
         <div class="name">
@@ -235,21 +251,21 @@
             <button class="button" type="submit">Login</button>
         </form>
     </div>
-
-    <div class="A" >
-        <p>Don't have an account?  <a href="https://www.rockstargames.com/" target="_blank" >Register</a> </p>
+    <div class="P" >
+        <div class="A">
+            <p>Don't have an account? <a href="https://store.steampowered.com/" target="_blank">Register</a> </p>
+        </div>
     </div>
-
     <div class="Games" >
-        <img class="C" src="./MW.jpeg" width="350px" alt="">
+        <img class="C" src="./MW.jpeg" width="340px" alt="">
         <span class="B" >Call of Duty MW</span>
     </div>
     <div class="Games1" >
-        <img  class="E" src="./3.jpeg" width="350px" alt="">
+        <img  class="E" src="./3.jpeg" width="340px" alt="">
         <span class="D" >Call of Duty</span>
     </div>
     <div class="Games2" >
-        <img  class="F" src="./BLACK OPPS.jpeg"  width="350px" alt="">
+        <img  class="F" src="./BLACK OPPS.jpeg"  width="340px" alt="">
         <span class="G" >Call of Duty</span>
     </div>
 </body>
