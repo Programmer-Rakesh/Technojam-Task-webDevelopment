@@ -11,7 +11,7 @@ Im learning web development since this 4th of October. So i just know the basics
 
 ( Self_madePROJECT_02 )  :   The idea was to create a gaming website where we can discover many amazing games. Features I build are: Enlargment of images on hover and clickable games list.
 
-( Self_madePROJECT_03 )  :   I thought to buld a website on US Air Force, where we can visit and have a detail research of every Fighter Jets which are on service. Though it's not complete yet. But still i learned and created one new feature that is Navigation bar with after hover effect and a scrolling area at any side/part of the website.
+( Self_madePROJECT_03 )  :   I thought to buld a website on US Air Force, where we can visit and have a detail research of every Fighter Jets which are on service. Though it's not complete yet. But still i learned and created one new feature that is Navigation bar with after hover effect, a line and a scrolling area at any side/part of the website.
 
 2. Challenges I Faced :
 (i)    ( EasyTask_01 )To be honest I didn’t faced any challenges in creating the card as it was just a basic one. 
