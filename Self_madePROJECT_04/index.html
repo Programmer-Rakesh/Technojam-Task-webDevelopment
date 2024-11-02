@@ -26,7 +26,19 @@
             background: rgb(29, 28, 28);
             padding: 20PX;
             border-radius: 12PX;
-            box-shadow: 12px 12px 20px rgb(53, 51, 51);
+            box-shadow: 12px 12px 20px rgb(53, 51, 51), -12px -12px 20px rgb(200, 211, 211);
+        }
+
+        #screen {
+            border: none;
+            outline: none;
+            background: #475c48;
+            color: black;
+            flex: 1;
+            padding: .5em;
+            border-radius: 6px;
+            box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px -8px #cbced1;
+
         }
 
         .calculator form input {
@@ -35,7 +47,7 @@
             width: 60px;
             height: 60px;
             border-radius: 8px;
-            box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.137), 5px 5px 15px rgba(0, 0, 0, 0.336);
+            box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.068), 5px 5px 15px rgba(0, 0, 0, 0.493);
             background: transparent;
             font-size: 20px;
             color: #fff;
@@ -49,7 +61,6 @@
             margin: 20px 0;
             border-radius: 10px;
             background-color: rgba(255, 255, 255, 0.842);
-            /* background: rgb(10, 90, 10); */
         }
 
         form .display input {
@@ -57,7 +68,6 @@
             text-align: right;
             flex: 1;
             font-size: 45px;
-            box-shadow: none;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
@@ -78,7 +88,7 @@
         <div class="calculator">
             <form>
                 <div class="display">
-                    <input type="text" name="display">
+                    <input id="screen" type="text" name="display">
                 </div>
                 <div>
                     <input type="button" value="AC" onclick="display.value = '' " class="line1">
